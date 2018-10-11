@@ -25,4 +25,13 @@ router.put('/user/resume', (req, res) => {
         .catch(err => res.json(err));
 });
 
+router.post('/user/login', (req, res) => {
+    let email = req.body.email;
+    let password = req.body.password;
+
+    AuthController.login_user(email, password)
+        .then(data => res.json(data))
+        .catch(err => res.json(err));
+});
+
 module.exports = router;
