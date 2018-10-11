@@ -42,3 +42,7 @@ module.exports.compare_password = (user, password, next) => {
 module.exports.generate_token = (user, secret) => {
     return jwt.sign(JSON.parse(JSON.stringify(user)), secret);
 };
+
+module.exports.find_user_by_id = (user_id, next) => {
+    User.findOne({_id: user_id}).exec(next);
+};
