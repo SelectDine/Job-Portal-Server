@@ -52,3 +52,22 @@ module.exports.register_user = (name, contact, email) => {
 
     });
 };
+
+//controller for the route -> /user/add-resume
+module.exports.add_resume = (user_id, applying_for, experiences) => {
+    return new Promise((resolve, reject) => {
+        if (typeof(applying_for) === 'string')
+            applying_for = [applying_for];
+        if (typeof(experiences) === 'string')
+            experiences = [experiences];
+
+        UserTransactions.update_resume(user_id, applying_for, experiences, (err) => {
+            if (err) {
+                console.error(err);
+                reject({success:false, message: "An error occurred"});
+            } else {
+                resolve({success: true, message: "Resume made successfully"});
+            }
+        });
+    });
+};
