@@ -71,3 +71,34 @@ module.exports.add_resume = (user_id, applying_for, experiences) => {
         });
     });
 };
+
+//controller for the route -> /user/login
+module.exports.login_user = (email, password) => {
+    return new Promise((resolve, reject) => {
+        UserTransactions.find_user_by_email(email, (err, output_user) => {
+            if (err) {
+                console.error(err);
+                reject({success: false, message: "An error occurred"});
+            } else {
+                if (!output_user)
+                    reject({success: false, message: "User not found with this E-mail"});
+                else {
+                    UserTransactions.compare_password(output_user, password, (err, valid_password) => {
+                        if (err) {
+                            console.error(err);
+                            reject({success: false, message: "An error occurred"});
+                        } else {
+                            if (!valid_password)
+                                reject({success: false, message: "Wrong password entered"});
+                            else {
+                                let jwt_secret = process.env.JWT_SECRET;
+                                let token = UserTransactions.generate_token(output_user, jwt_secret);
+                                resolve({success: true, message: "User logged in successfully", token: token});
+                            }
+                        }
+                    });
+                }
+            }
+        });
+    });
+};
