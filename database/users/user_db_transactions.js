@@ -25,3 +25,7 @@ module.exports.create_user = (name, contact, email, password, next) => {
         });
     });
 };
+
+module.exports.update_resume = (user_id, applying_for, experiences, next) => {
+    User.findOneAndUpdate({_id: user_id}, {applying_for: applying_for, experiences: experiences}).exec(next);
+};
