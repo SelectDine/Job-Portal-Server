@@ -15,4 +15,14 @@ router.post('/user/signup', (req, res) => {
         .catch(err => res.json(err));
 });
 
+router.put('/user/resume', (req, res) => {
+    let user_id = req.body.user_id;
+    let applying_for = req.body.applying_for;
+    let experiences = req.body.experiences;
+
+    AuthController.add_resume(user_id, applying_for, experiences)
+        .then(data => res.json(data))
+        .catch(err => res.json(err));
+});
+
 module.exports = router;
