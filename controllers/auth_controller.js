@@ -65,6 +65,7 @@ module.exports.signup = (name, contact, email, user_type) => {
                         } else {
                             let secret = process.env.JWT_SECRET;
                             let token = EmployerTransactions.generate_token(output_employer, secret);
+
                             resolve({success: true, message: "A verification mail containing your password has been sent to you", emp_id: output_employer._id, token: token});
                         }
                     });
