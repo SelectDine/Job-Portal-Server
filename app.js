@@ -35,7 +35,7 @@ mongoose.connect(db, (err) => {
 
         // Setting up the respective routers with base routes
         app.use('/api/auth', auth_router);
-        //app.use('/api/employer', employer_router);
+        app.use('/api/employer', employer_router);
         app.use('/api/user', user_router);
 
         // Setting up the error handler
