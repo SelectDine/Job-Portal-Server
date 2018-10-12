@@ -33,3 +33,23 @@ module.exports.fetch_user_details = (user_id) => {
         });
     });
 };
+
+//controller for the route -> /resume
+module.exports.add_resume_user = (user_id, applying_for, experiences,  university_name, reg_number) => {
+    return new Promise((resolve, reject) => {
+        if (typeof(applying_for) === 'string')
+            applying_for = [applying_for];
+        if (typeof(experiences) === 'string')
+            experiences = [experiences];
+
+        UserTransactions.update_resume(user_id, applying_for, experiences,  university_name, reg_number, (err) => {
+            if (err) {
+                console.error(err);
+                reject({success:false, message: "An error occurred"});
+            } else {
+                resolve({success: true, message: "Resume made successfully for user"});
+            }
+        });
+    });
+};
+

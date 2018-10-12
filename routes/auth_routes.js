@@ -30,18 +30,6 @@ router.post('/login', (req, res) => {
 
 });
 
-router.put('/user/resume', (req, res) => {
-    let user_id = req.body.user_id;
-    let applying_for = req.body.applying_for;
-    let experiences = req.body.experiences;
-    let university_name = req.body.university_name;
-    let reg_number = req.body.reg_number;
-
-    AuthController.add_resume_user(user_id, applying_for, experiences, university_name, reg_number)
-        .then(data => res.json(data))
-        .catch(err => res.json(err));
-});
-
 
 router.put('/employer/resume', (req, res) => {
     let emp_id = req.body.emp_id;

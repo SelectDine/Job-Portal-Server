@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="621f59f4-0b6c-427a-97a4-bb6fa13e68d5" name="Default" comment="" />
+    <list default="true" id="621f59f4-0b6c-427a-97a4-bb6fa13e68d5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -59,6 +61,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="employer_controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/employer_controller.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auth_routes.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="auth_routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/auth_routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="-85">
+              <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -111,7 +122,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/database/employers/employer_transactions.js" />
         <option value="$PROJECT_DIR$/routes/employer_routes.js" />
         <option value="$PROJECT_DIR$/controllers/employer_controller.js" />
@@ -124,6 +134,7 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/controllers/auth_controller.js" />
         <option value="$PROJECT_DIR$/routes/auth_routes.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -190,6 +201,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.11.4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app.js" />
     <property name="node.js.detected.package.prettier" value="true" />
@@ -234,12 +246,12 @@
       <updated>1539276190710</updated>
       <workItem from="1539276192460" duration="14996000" />
       <workItem from="1539297222430" duration="417000" />
-      <workItem from="1539324059622" duration="13514000" />
+      <workItem from="1539324059622" duration="14591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28927000" />
+    <option name="totallyTimeSpent" value="30004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -428,13 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/auth_controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -448,8 +453,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/auth_routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="-85">
+          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>

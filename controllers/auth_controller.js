@@ -5,12 +5,6 @@ const nodemailer = require('nodemailer');
 const random_string = require('randomstring');
 const sg_transport = require('nodemailer-sendgrid-transport');
 
-
-
-// pasword - 5imndL0J
-
-
-
 // controller for the route -> /signup
 module.exports.signup = (name, contact, email, user_type) => {
     return new Promise((resolve, reject) => {
@@ -79,38 +73,6 @@ module.exports.signup = (name, contact, email, user_type) => {
     });
 };
 
-//controller for the route -> /user/resume
-module.exports.add_resume_user = (user_id, applying_for, experiences,  university_name, reg_number) => {
-    return new Promise((resolve, reject) => {
-        if (typeof(applying_for) === 'string')
-            applying_for = [applying_for];
-        if (typeof(experiences) === 'string')
-            experiences = [experiences];
-
-        UserTransactions.update_resume(user_id, applying_for, experiences,  university_name, reg_number, (err) => {
-            if (err) {
-                console.error(err);
-                reject({success:false, message: "An error occurred"});
-            } else {
-                resolve({success: true, message: "Resume made successfully for user"});
-            }
-        });
-    });
-};
-
-//controller for the route -> /employer/resume
-module.exports.add_resume_employer = (emp_id, hotel_name, hotel_location, hotel_contact, hotel_email) => {
-    return new Promise((resolve, reject) => {
-        EmployerTransactions.update_resume(emp_id, hotel_name, hotel_location, hotel_contact, hotel_email, (err) => {
-            if (err) {
-                console.error(err);
-                reject({success: false, message: "An error occurred"});
-            } else {
-                resolve({success: true, message: "Resume made successfully for employer"});
-            }
-        });
-    });
-};
 
 //controller for the route -> /login
 module.exports.login = (email, password, user_type) => {
