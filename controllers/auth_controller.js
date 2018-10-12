@@ -5,6 +5,12 @@ const nodemailer = require('nodemailer');
 const random_string = require('randomstring');
 const sg_transport = require('nodemailer-sendgrid-transport');
 
+
+
+// pasword - 5imndL0J
+
+
+
 // controller for the route -> /signup
 module.exports.signup = (name, contact, email, user_type) => {
     return new Promise((resolve, reject) => {
@@ -33,6 +39,7 @@ module.exports.signup = (name, contact, email, user_type) => {
                 console.error(err);
                 reject({success: false, message: "Problem sending verification email"});
             } else {
+                console.log("email sent to " + JSON.stringify(email_body));
                 if (user_type === 0) {
                     UserTransactions.create_user(name, contact, email, password, (err, output_user) => {
                         if (err){
@@ -42,7 +49,9 @@ module.exports.signup = (name, contact, email, user_type) => {
                             else
                                 reject({success: false, message: "An error occurred"});
                         } else {
-                            resolve({success: true, message: "A verification mail containing your password has been sent to you", user_id: output_user._id});
+                            let secret = process.env.JWT_SECRET;
+                            let token = UserTransactions.generate_token(output_user, secret);
+                            resolve({success: true, message: "A verification mail containing your password has been sent to you", user_id: output_user._id, token: token});
                         }
                     });
                 } else if (user_type === 1) {
@@ -54,7 +63,9 @@ module.exports.signup = (name, contact, email, user_type) => {
                             else
                                 reject({success: false, message: "An error occurred"});
                         } else {
-                            resolve({success: true, message: "A verification mail containing your password has been sent to you", emp_id: output_employer._id});
+                            let secret = process.env.JWT_SECRET;
+                            let token = EmployerTransactions.generate_token(output_employer, secret);
+                            resolve({success: true, message: "A verification mail containing your password has been sent to you", emp_id: output_employer._id, token: token});
                         }
                     });
                 } else {
