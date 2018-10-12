@@ -30,18 +30,4 @@ router.post('/login', (req, res) => {
 
 });
 
-
-router.put('/employer/resume', (req, res) => {
-    let emp_id = req.body.emp_id;
-    let hotel_name = req.body.hotel_name;
-    let hotel_location = req.body.hotel_location;
-    let hotel_contact = req.body.hotel_contact;
-    let hotel_email = req.body.hotel_email;
-
-    AuthController.add_resume_employer(emp_id, hotel_name, hotel_location, hotel_contact, hotel_email)
-        .then(data => res.json(data))
-        .catch(err => res.json(err));
-
-});
-
 module.exports = router;
