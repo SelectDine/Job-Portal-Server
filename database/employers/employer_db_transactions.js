@@ -40,7 +40,7 @@ module.exports.update_resume = (emp_id, hotel_name, hotel_location, hotel_contac
         hotel_contact: hotel_contact
     };
 
-    Employer.findOneAndUpdate({_id: id}, {hotel_details:hotel_details}).exec(next);
+    Employer.findOneAndUpdate({_id: emp_id}, {hotel_details:hotel_details}).exec(next);
 };
 
 module.exports.generate_token = (employer, secret) => {
