@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="621f59f4-0b6c-427a-97a4-bb6fa13e68d5" name="Default" comment="" />
+    <list default="true" id="621f59f4-0b6c-427a-97a4-bb6fa13e68d5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auth_controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth_controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/employer_controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/employer_controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/user_controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/user_controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/employers/employer_db_transactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/employers/employer_db_transactions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/employers/employer_schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/employers/employer_schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/users/user_db_transactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/users/user_db_transactions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/users/user_schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/users/user_schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/auth_routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth_routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/employer_routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/employer_routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/user_routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/user_routes.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,27 +26,52 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="user_controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/user_controller.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="user_db_transactions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/users/user_db_transactions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="400">
+              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth_controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/auth_controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="79" column="35" lean-forward="true" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#454#2988#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="user_controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/user_controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/user_routes.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="employer_controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/employer_controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state>
+              <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -41,32 +79,8 @@
       <file leaf-file-name="employer_schema.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/employers/employer_schema.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="employer_db_transactions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/employers/employer_db_transactions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_db_transactions.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/users/user_db_transactions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="496">
+              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -74,8 +88,8 @@
       <file leaf-file-name="user_schema.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/users/user_schema.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="448">
+              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -83,44 +97,8 @@
       <file leaf-file-name="auth_routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/auth_routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="employer_routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/employer_routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/user_routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="53" column="79" selection-start-line="53" selection-start-column="79" selection-end-line="53" selection-end-column="79" />
+            <state relative-caret-position="75">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -134,22 +112,26 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/controllers/auth_controller.js" />
-        <option value="$PROJECT_DIR$/controllers/employer_controller.js" />
-        <option value="$PROJECT_DIR$/controllers/user_controller.js" />
-        <option value="$PROJECT_DIR$/database/employers/employer_schema.js" />
         <option value="$PROJECT_DIR$/database/employers/employer_transactions.js" />
-        <option value="$PROJECT_DIR$/routes/auth_routes.js" />
+        <option value="$PROJECT_DIR$/controllers/user_controller.js" />
         <option value="$PROJECT_DIR$/routes/employer_routes.js" />
         <option value="$PROJECT_DIR$/routes/user_routes.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/controllers/employer_controller.js" />
+        <option value="$PROJECT_DIR$/database/employers/employer_schema.js" />
+        <option value="$PROJECT_DIR$/database/employers/employer_db_transactions.js" />
         <option value="$PROJECT_DIR$/database/users/user_schema.js" />
         <option value="$PROJECT_DIR$/database/users/user_db_transactions.js" />
+        <option value="$PROJECT_DIR$/routes/auth_routes.js" />
+        <option value="$PROJECT_DIR$/controllers/auth_controller.js" />
       </list>
     </option>
   </component>
@@ -164,14 +146,16 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="27" />
-    <option name="width" value="581" />
-    <option name="height" value="665" />
+    <option name="width" value="571" />
+    <option name="height" value="663" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,7 +194,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,7 +221,14 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Run" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="app.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="Run" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+      <envs>
+        <env name="DATABASE" value="mongodb://selectdine:luci4mstar@ds129823.mlab.com:29823/selectdine_job_portal" />
+        <env name="SENDGRID_USERNAME" value="yashvardhankukreja" />
+        <env name="SENDGRID_PASSWORD" value="Python@98" />
+        <env name="JWT_SECRET" value="luci4mstar" />
+      </envs>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -250,12 +240,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539276190710</updated>
-      <workItem from="1539276192460" duration="3774000" />
+      <workItem from="1539276192460" duration="14996000" />
+      <workItem from="1539297222430" duration="417000" />
+      <workItem from="1539324059622" duration="7441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3774000" />
+    <option name="totallyTimeSpent" value="22854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -263,21 +255,21 @@
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962743" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.495283" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49525318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" weight="0.5110063" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.50949365" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,100 +279,41 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/database/users/user_db_transactions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        <state relative-caret-position="720">
+          <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/auth_controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="1360">
+          <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/employer_controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#454#2988#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/user_controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/employers/employer_schema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/employers/employer_db_transactions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/auth_routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/employer_routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/user_routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="53" column="79" selection-start-line="53" selection-start-column="79" selection-end-line="53" selection-end-column="79" />
+        <state relative-caret-position="672">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/auth_routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -391,12 +324,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/users/user_db_transactions.js">
+    <entry file="file://$PROJECT_DIR$/routes/user_routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/users/user_db_transactions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/auth_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="85" column="29" lean-forward="true" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/user_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/auth_routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/users/user_schema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/user_routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/employer_routes.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/employers/employer_db_transactions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" column="100" selection-start-line="33" selection-start-column="100" selection-end-line="33" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/users/user_schema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/employers/employer_schema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/auth_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="79" column="35" lean-forward="true" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
+          <folding>
+            <element signature="e#454#2988#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/employer_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/user_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/users/user_db_transactions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/auth_routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/user_routes.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

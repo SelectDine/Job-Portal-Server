@@ -1,7 +1,3 @@
-/**
- * Created by Yash 1300 on 11-10-2018.
- */
-
 const UserTransactions = require('../database/users/user_db_transactions');
 const Promise = require('bluebird');
 const jwt = require('jsonwebtoken');

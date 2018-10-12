@@ -1,7 +1,3 @@
-/**
- * Created by Yash 1300 on 11-10-2018.
- */
-
 const User = require('./user_schema');
 const bcrypt = require('bcrypt-nodejs');
 const jwt = require('jsonwebtoken');
@@ -27,8 +23,11 @@ module.exports.create_user = (name, contact, email, password, next) => {
     });
 };
 
-module.exports.update_resume = (user_id, applying_for, experiences, next) => {
-    User.findOneAndUpdate({_id: user_id}, {applying_for: applying_for, experiences: experiences}).exec(next);
+module.exports.update_resume = (user_id, applying_for, experiences,  university_name, reg_number, next) => {
+    User.findOneAndUpdate({_id: user_id}, {applying_for: applying_for, experiences: experiences, college_details:{
+        college_name: university_name,
+            reg_number: reg_number
+        }}).exec(next);
 };
 
 module.exports.find_user_by_email = (email, next) => {

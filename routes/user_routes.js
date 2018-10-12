@@ -1,7 +1,3 @@
-/**
- * Created by Yash 1300 on 11-10-2018.
- */
-
 const UserController = require('../controllers/user_controller');
 const router = require('express').Router();
 

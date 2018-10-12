@@ -1,7 +1,3 @@
-/**
- * Created by Yash1300 on 11-10-2018.
- */
-
 const mongoose = require('mongoose');
 const express = require('express');
 const morgan = require('morgan');

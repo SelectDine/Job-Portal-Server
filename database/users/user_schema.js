@@ -1,7 +1,3 @@
-/**
- * Created by Yash 1300 on 11-10-2018.
- */
-
 const mongoose = require('mongoose');
 
 const user_schema = new mongoose.Schema({
@@ -27,6 +23,10 @@ const user_schema = new mongoose.Schema({
         },
         reg_number: {
             type: String
+        },
+        approved: {
+            type: Boolean,
+            default: false
         }
     },
     applying_for: [
