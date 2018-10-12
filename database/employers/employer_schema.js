@@ -19,16 +19,16 @@ const employer_schema = new mongoose.Schema({
     },
     hotel_details: {
         hotel_name: {
-            type: String,
+            type: String
         },
         hotel_location: {
             type: String
         },
         hotel_contact: {
-            type: String,
+            type: String
         },
         hotel_email: {
-            type: String,
+            type: String
         }
     }
 });
