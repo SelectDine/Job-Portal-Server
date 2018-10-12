@@ -115,7 +115,7 @@ module.exports.add_resume_employer = (emp_id, hotel_name, hotel_location, hotel_
 //controller for the route -> /login
 module.exports.login = (email, password, user_type) => {
     return new Promise((resolve, reject) => {
-
+        console.log("User type provided for login: " + user_type);
         if (user_type === 0) {
             UserTransactions.find_user_by_email(email, (err, output_user) => {
                 if (err) {
