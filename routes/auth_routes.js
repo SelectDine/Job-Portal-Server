@@ -11,7 +11,10 @@ router.post('/signup', (req, res) => {
     // user_type = 1 -> employer
 
     AuthController.signup(name, contact, email, user_type)
-        .then(data => res.json(data))
+        .then(data => {
+            res.header("Set-Cookie","x-access-token="+data.token);
+            res.json(data);
+        })
         .catch(err =>  res.json(err));
 });
 

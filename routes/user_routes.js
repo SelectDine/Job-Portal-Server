@@ -6,7 +6,6 @@ router.use((req, res, next) => {
     let jwt_secret = process.env.JWT_SECRET;
     UserController.verify_user_token(token, jwt_secret)
         .then(data => {
-            res.header("Set-Cookie","x-access-token="+token);
             req.decoded = data.decoded;
             next();
         })
