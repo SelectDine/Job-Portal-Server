@@ -12,7 +12,7 @@ router.post('/signup', (req, res) => {
 
     AuthController.signup(name, contact, email, user_type)
         .then(data => {
-            res.header("Set-Cookie","x-access-token="+data.token);
+           // res.header("Set-Cookie","x-access-token="+data.token);
             res.json(data);
         })
         .catch(err =>  res.json(err));
