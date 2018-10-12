@@ -42,12 +42,14 @@ module.exports.add_resume_user = (user_id, applying_for, experiences,  universit
         if (typeof(experiences) === 'string')
             experiences = [experiences];
 
-        UserTransactions.update_resume(user_id, applying_for, experiences,  university_name, reg_number, (err) => {
+        UserTransactions.update_resume(user_id, applying_for, experiences,  university_name, reg_number, (err, output_user) => {
             if (err) {
                 console.error(err);
                 reject({success:false, message: "An error occurred"});
             } else {
-                resolve({success: true, message: "Resume made successfully for user"});
+                let secret = process.env.JWT_SECRET;
+                let token = UserTransactions.generate_token(output_user, secret);
+                resolve({success: true, message: "Resume made successfully for user", updated_token: token});
             }
         });
     });
