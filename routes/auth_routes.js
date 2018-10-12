@@ -19,7 +19,7 @@ router.post('/login', (req, res) => {
     let email = req.body.email;
     let password = req.body.password;
     let user_type = parseInt(req.body.user_type);
-    console.log("User type provided for login: " + user_type);
+    console.log("User type provided for login: " + req.body.user_type);
 
     // user_type = 0 -> user
     // user_type = 1 -> employer

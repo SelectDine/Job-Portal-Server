@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="621f59f4-0b6c-427a-97a4-bb6fa13e68d5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="621f59f4-0b6c-427a-97a4-bb6fa13e68d5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -28,12 +26,11 @@
       <file leaf-file-name="auth_controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/auth_controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="125">
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
               <folding>
                 <element signature="e#3161#3801#0" />
                 <element signature="e#3956#4401#0" />
-                <element signature="e#4496#6841#0" />
               </folding>
             </state>
           </provider>
@@ -53,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
@@ -89,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auth_routes.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="auth_routes.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/auth_routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="93">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -122,11 +119,11 @@
         <option value="$PROJECT_DIR$/database/employers/employer_db_transactions.js" />
         <option value="$PROJECT_DIR$/database/users/user_schema.js" />
         <option value="$PROJECT_DIR$/database/users/user_db_transactions.js" />
-        <option value="$PROJECT_DIR$/controllers/auth_controller.js" />
         <option value="$PROJECT_DIR$/controllers/user_controller.js" />
         <option value="$PROJECT_DIR$/routes/user_routes.js" />
-        <option value="$PROJECT_DIR$/routes/auth_routes.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/controllers/auth_controller.js" />
+        <option value="$PROJECT_DIR$/routes/auth_routes.js" />
       </list>
     </option>
   </component>
@@ -237,17 +234,18 @@
       <updated>1539276190710</updated>
       <workItem from="1539276192460" duration="14996000" />
       <workItem from="1539297222430" duration="417000" />
-      <workItem from="1539324059622" duration="13100000" />
+      <workItem from="1539324059622" duration="13514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28513000" />
+    <option name="totallyTimeSpent" value="28927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962743" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962743" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -287,7 +285,6 @@
           <folding>
             <element signature="e#3161#3801#0" />
             <element signature="e#3956#4401#0" />
-            <element signature="e#4496#6841#0" />
           </folding>
         </state>
       </provider>
@@ -421,18 +418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/auth_controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#3161#3801#0" />
-            <element signature="e#3956#4401#0" />
-            <element signature="e#4496#6841#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/user_controller.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -443,17 +428,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/auth_routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/auth_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+          <folding>
+            <element signature="e#3161#3801#0" />
+            <element signature="e#3956#4401#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/auth_routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
